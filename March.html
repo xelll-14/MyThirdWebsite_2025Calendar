@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td{
+            border: 2px solid rgb(243, 241, 241);
+            border-collapse: collapse;
+            border-radius: 10px;
+            text-align: center; 
+            padding: 2px;
+            color:aliceblue;
+        }
+        th, td{
+            padding: 20px;
+        }
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-image: url('pokvid.gif');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        td:nth-child(7){
+            padding:20px;
+            color: yellow;
+            text-align: center;
+        }
+        td:hover{
+            background: linear-gradient(  aqua, aqua, rgb(51, 112, 144));
+            border: 3px double rgb(255, 20, 20);
+        }
+
+        td:nth-child(1){
+            padding:20px;
+            color: crimson;
+            text-align: center;
+        }
+        td:hover{
+            background-color: limegreen;
+        }
+
+
+       .navbar {
+            overflow: hidden;
+            background-color: #333; 
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .subnav {
+            float: left;
+            overflow: hidden;
+            position: fixed;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .subnav .subnavbtn {
+            font-size: 16px;  
+            border: none;
+            outline: none;
+            color: rgb(0, 0, 0);
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+            position: fixed;
+        }
+
+        .navbar a:hover, .subnav:hover .subnavbtn {
+            background-color: rgb(164, 120, 100);
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        .subnav-content {
+            display: none;
+            position: fixed;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: pink;
+            width: 100%;
+            z-index: 1;
+            text-align: center;
+        }
+
+        .subnav-content a {
+            display: inline-block;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+
+        .subnav-content a:hover {
+            background-color: #eee;
+            color: black;
+        }
+
+        .subnav:hover .subnav-content {
+            display: block;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+    </style>
+    </head>
+
+
+
+
+
+
+    <body>
+        <header class="navbar"> 
+            <div class="subnav">
+                <button class="subnavbtn" style="text-align: center; width: 100%; background: linear-gradient( aqua, aqua, rgb(51, 112, 144));">CALENDAR ▼</button>
+                <div class="subnav-content" >
+                    <a href="index.html" target="_self">January</a>
+                    <a href="February.html" target="_self">February</a>
+                    <a href="March.html" target="_self">March</a>
+                    <a href="April.html" target="_self">April</a>
+                    <a href="May.html" target="_self">May</a>
+                    <a href="June.html" target="_self">June</a>
+                    <a href="July.html" target="_self">July</a>
+                    <a href="August.html" target="_self">August</a>
+                    <a href="September.html" target="_self">September</a>
+                    <a href="October.html" target="_self">October</a>
+                    <a href="November.html" target="_self">November</a>
+                    <a href="December.html" target="_self">December</a>
+                </div>
+            </div>
+        </header>
+    
+
+   <br>
+   <br>
+   <br>
+   <br>
+
+   <table class="center">
+    <tr>
+        <th colspan="7" style="background: linear-gradient(rgb(105, 144, 199), blue);">MARCH 2025</th>
+    <tr style="color:black; background: linear-gradient( rgb(168, 168, 168), rgb(59, 58, 58));">
+    <th>SUN</th>
+    <th>MON</th>
+    <th>TUE</th>
+    <th>WED</th>
+    <th>THU</th>
+    <th>FRI</th> 
+    <th>SAT</th>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+        </tr>
+        <tr>
+        <td title="Ramadan Start">2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        </tr>
+        <tr>
+        <td>9</td>
+        <td title="The Date Today">10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+        </tr>
+        <tr>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+        <td>22</td>
+        </tr>
+        <tr>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        </tr>
+        <tr>
+        <td>30</td>
+        <td style="color: crimson;" title="Eidul-Fitar">31</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+    </tr>
+   </table>
+
+
+   </body>
+   </html>
